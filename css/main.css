@@ -148,6 +148,21 @@ a {
   background-color: darkorange;
 }
 
+.sticky-elem {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#show-scen-0 #scroll-section-0 .sticky-elem,
+#show-scen-1 #scroll-section-1 .sticky-elem,
+#show-scen-2 #scroll-section-2 .sticky-elem,
+#show-scen-3 #scroll-section-3 .sticky-elem {
+  display: block;
+}
+
 /* Desktop */
 /* rem: 고정단위이자 상대단위(=지정한 html의 14px의 배수단위) => 고정*/
 /* vw: 창크기의 %  => 유연*/
